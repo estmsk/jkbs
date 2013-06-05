@@ -1,4 +1,4 @@
-# Jekyll + Bootstrup + bower + Styleguide
+# Jekyll + Bootstrup
 
 1. jekyll new [project name]
 2. cd [project name]
