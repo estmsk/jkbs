@@ -1,0 +1,9 @@
+{
+  "name": "kaleistyleguide",
+  "version": "0.0.0",
+  "commit": "f486ba856b83cdffbbb627a97d96521fa739e1b2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaleistyleguide/kaleistyleguide.git"
+  }
+}
