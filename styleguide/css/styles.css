@@ -6,15 +6,15 @@ This project aims at making sure your style sheets are fully documented whilst b
 
 This website is a live example generated from Kalei's style.css
 
-<iframe src="http://ghbtns.com//github-btn.html?user=thomasdavis&repo=kaleistyleguide&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170px" height="30px"></iframe>
+<iframe src="http://ghbtns.com//github-btn.html?user=kaleistyleguide&repo=kaleistyleguide&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170px" height="30px"></iframe>
 
-<iframe src="http://ghbtns.com//github-btn.html?user=thomasdavis&repo=kaleistyleguide&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="146px" height="30px"></iframe>
+<iframe src="http://ghbtns.com//github-btn.html?user=kaleistyleguide&repo=kaleistyleguide&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="146px" height="30px"></iframe>
 
 ## Getting started
 
-1. Download the repository (`git clone git://github.com/thomasdavis/kaleistyleguide.git`)
+1. Download the repository (`git clone git://github.com/kaleistyleguide/kaleistyleguide.git`)
 2. Serve it on a HTTP server and it should work!
-3. Edit `js/config.js` to point at your own `styles.css`
+3. Edit `js/config.js` to point at your own `styles.css` 
 
 
 ## Example
@@ -24,13 +24,13 @@ Easily show off examples of your components and the HTML to generate them
 ```
 <div class="actions button-container">
     <a href="#" class="button primary">Compose new</a>
-
+    
     <div class="button-group">
         <a href="#" class="button primary">Archive</a>
         <a href="#" class="button">Report spam</a>
         <a href="#" class="button danger">Delete</a>
     </div>
-
+                        
     <div class="button-group minor-group">
         <a href="#" class="button">Move to</a>
         <a href="#" class="button">Labels</a>
@@ -76,7 +76,7 @@ Kalei is heavily influenced by the following projects and blog posts.
 
 [Nadarei KSS](http://nadarei.co/nkss-rails/) - rails
 
-## Technologies
+## Technologies 
 
 * [marked](https://github.com/chjj/marked)
 * [jscssp](http://www.glazman.org/JSCSSP/)
@@ -87,21 +87,25 @@ Kalei is heavily influenced by the following projects and blog posts.
 * [underscore](http://underscorejs.org/)
 * [jquery](http://jquery.com)
 
-## License
+## License 
 
 Public domain: http://unlicense.org/
+
+## Stylesheets
 
 */
 
 /* ### Kalei theme ### */
+
 @import url("theme.css");
 
 
 
 
 /* ### Examples ### */
+
 @import url("buttons.css");
 @import url("fixie-demo.css");
-
 /* ### Third Party ### */
+
 @import url("highlight/styles/googlecode.css");

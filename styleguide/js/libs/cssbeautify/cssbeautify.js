@@ -16,8 +16,8 @@
         css_beautify(source_text, options);
 
     The options are:
-        indent_size (default 4)          — indentation size,
-        indent_char (default space)      — character to indent with,
+        indent_size (default 4)          â indentation size,
+        indent_char (default space)      â character to indent with,
 
     e.g
 
